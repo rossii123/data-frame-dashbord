@@ -1,0 +1,77 @@
+{
+  "id": "ExampleCatalog--Movie--movie_titles",
+  "properties": [
+    {
+      "name": "show_id",
+      "data_type": "String",
+      "description": "Dataset unique ID",
+      "from_store": false
+    },
+    {
+      "name": "type",
+      "data_type": "String",
+      "description": "TV show or Movie",
+      "from_store": false
+    },
+    {
+      "name": "title",
+      "data_type": "String",
+      "description": "The name of the movie",
+      "from_store": false
+    },
+    {
+      "name": "director",
+      "data_type": "String",
+      "description": null,
+      "from_store": false
+    },
+    {
+      "name": "cast",
+      "data_type": "String",
+      "description": "Comma separated cast list",
+      "from_store": false
+    },
+    {
+      "name": "country",
+      "data_type": "String",
+      "description": "The producing country name.",
+      "from_store": false
+    },
+    {
+      "name": "date",
+      "data_type": "Date",
+      "description": "The date a specific datapoint was added.",
+      "from_store": true
+    },
+    {
+      "name": "release_year",
+      "data_type": "Long",
+      "description": null,
+      "from_store": false
+    },
+    {
+      "name": "rating",
+      "data_type": "String",
+      "description": null,
+      "from_store": false
+    },
+    {
+      "name": "duration",
+      "data_type": "String",
+      "description": null,
+      "from_store": false
+    },
+    {
+      "name": "listed_in",
+      "data_type": "String",
+      "description": null,
+      "from_store": false
+    },
+    {
+      "name": "description",
+      "data_type": "String",
+      "description": null,
+      "from_store": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ExampleCatalog--House--housing_prices",
+  "properties": [
+    {
+      "name": "housing_median_age",
+      "data_type": "Double",
+      "description": "Median age of houses in years.",
+      "from_store": false
+    },
+    {
+      "name": "population",
+      "data_type": "Double",
+      "description": "The population size within this area.",
+      "from_store": false
+    },
+    {
+      "name": "households",
+      "data_type": "Double",
+      "description": null,
+      "from_store": false
+    },
+    {
+      "name": "median_income",
+      "data_type": "Double",
+      "description": "Median income of household.",
+      "from_store": false
+    },
+    {
+      "name": "median_house_value",
+      "data_type": "Double",
+      "description": null,
+      "from_store": false
+    },
+    {
+      "name": "ocean_proximity",
+      "data_type": "String",
+      "description": "Ocean proximity as a descriptive string.",
+      "from_store": false
+    },
+    {
+      "name": "location",
+      "data_type": "Struct({'lon': 'Double', 'lat': 'Double'})",
+      "description": "Location in longitude and latitude.",
+      "from_store": false
+    },
+    {
+      "name": "total",
+      "data_type": "Double",
+      "description": "Summed number rooms for all houses.",
+      "from_store": false
+    },
+    {
+      "name": "bed",
+      "data_type": "Double",
+      "description": "Summed number bedrooms for all houses.",
+      "from_store": false
+    },
+    {
+      "name": "date",
+      "data_type": "Date",
+      "description": "The date a specific datapoint was added.",
+      "from_store": true
+    }
+  ]
+}
