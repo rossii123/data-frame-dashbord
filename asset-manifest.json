@@ -1,15 +1,12 @@
 {
   "files": {
-    "main.css": "/data-frame-dashbord/static/css/main.898c6837.css",
-    "main.js": "/data-frame-dashbord/static/js/main.2fa4ed59.js",
-    "static/js/787.209ef0fb.chunk.js": "/data-frame-dashbord/static/js/787.209ef0fb.chunk.js",
-    "index.html": "/data-frame-dashbord/index.html",
-    "main.898c6837.css.map": "/data-frame-dashbord/static/css/main.898c6837.css.map",
-    "main.2fa4ed59.js.map": "/data-frame-dashbord/static/js/main.2fa4ed59.js.map",
-    "787.209ef0fb.chunk.js.map": "/data-frame-dashbord/static/js/787.209ef0fb.chunk.js.map"
+    "main.css": "/static/css/main.c94b3aeb.css",
+    "main.js": "/static/js/main.fc2dc2ce.js",
+    "static/js/27.97a8d77e.chunk.js": "/static/js/27.97a8d77e.chunk.js",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.898c6837.css",
-    "static/js/main.2fa4ed59.js"
+    "static/css/main.c94b3aeb.css",
+    "static/js/main.fc2dc2ce.js"
   ]
 }
