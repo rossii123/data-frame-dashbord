@@ -37,8 +37,8 @@ function App() {
       <div className="rounded-lg shadow bg-base-100 drawer drawer-mobile h-screen">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
 
-        <div className="flex flex-col drawer-content">
-          <div className="flex justify-between lg:justify-end p-2  border-b border-base-300 h-16">
+        <div className="flex flex-col drawer-content bg-base-200 pb-8">
+          <div className="flex justify-between lg:justify-end p-2  border-b border-base-300 bg-base-100 h-16 ">
             <label
               htmlFor="my-drawer-2"
               className="mb-4 btn btn-primary drawer-button lg:hidden"
