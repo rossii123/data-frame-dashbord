@@ -1,7 +1,6 @@
-import treeJson from '../data/tree';
 import { FiDatabase } from 'react-icons/fi';
 import { motion } from 'framer-motion';
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { SelectedItemContext } from '../context';
 
 const FolderIcon = () => (
@@ -12,9 +11,9 @@ const FolderIcon = () => (
     className="inline-block w-5 h-5 mr-2 stroke-current"
   >
     <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
       d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
     ></path>
   </svg>
@@ -76,10 +75,16 @@ export const Item = ({ item }: { item: Node }) => {
 };
 
 export const TreeList = () => {
-  const list = treeJson as Node[];
+  const [treeList, setTreeList] = useState<null | Node[]>(null);
+  useEffect(() => {
+    console.log('URL', process.env.PUBLIC_URL);
+    fetch(`${process.env.PUBLIC_URL || ''}/data.json`)
+      .then((a) => a.json())
+      .then((a) => setTreeList(a));
+  }, []);
   return (
     <ul className="menu pt-4">
-      {list.map((l, index) => (
+      {treeList?.map((l, index) => (
         <Item item={l} key={index} />
       ))}
     </ul>
